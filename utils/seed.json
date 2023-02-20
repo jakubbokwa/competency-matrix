@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Jan Kowalski",
+    "userIndex": 1,
+    "disciplines": [
+      {
+        "disciplineName": "Front-End",
+        "disciplineCode": "frontend",
+        "disciplineId": 1,
+        "branches": [
+          {
+            "branchName": "JavaScript",
+            "branchCode": "frontend-javascript",
+            "branchId": 1,
+            "color": "#f7df1e",
+            "issues": [
+              {
+                "issueName": "React",
+                "issueCode": "js-react",
+                "issueId": 1,
+                "color": "#61DBFB",
+                "topics": [
+                  {
+                    "topicName": "Hooks",
+                    "topicCode": "react-hooks",
+                    "topicId": 1,
+                    "skillLevel": 0
+                  },
+                  {
+                    "topicName": "Components",
+                    "topicCode": "react-components",
+                    "topicId": 2,
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "CLI Tools",
+                    "topicCode": "react-cli",
+                    "topicId": 3,
+                    "skillLevel": 2
+                  },
+                  {
+                    "topicName": "Rendering",
+                    "topicCode": "react-rendering",
+                    "topicId": 4,
+                    "skillLevel": 3
+                  }
+                ]
+              },
+              {
+                "issueName": "Functions",
+                "issueCode": "js-functions",
+                "issueId": 2,
+                "color": "#507963",
+                "topics": [
+                  {
+                    "topicName": "Closures",
+                    "topicCode": "functions-closures",
+                    "topicId": 1,
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Recursion",
+                    "topicCode": "functions-recursion",
+                    "topicId": 1,
+                    "skillLevel": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "CSS",
+            "branchCode": "css",
+            "branchId": 2,
+            "color": "#264de4",
+            "issues": [],
+            "topics": [
+              {
+                "topicName": "Vanilla CSS",
+                "topicCode": "css-vanilla",
+                "topicId": 1,
+                "skillLevel": 1
+              },
+              {
+                "topicName": "SCSS",
+                "topicCode": "css-scss",
+                "topicId": 2,
+                "skillLevel": 2
+              },
+              {
+                "topicName": "TailwindCSS",
+                "topicCode": "css-tailwind",
+                "topicId": 3,
+                "skillLevel": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Adam Nowak",
+    "userIndex": 2,
+    "disciplines": [
+      {
+        "disciplineName": "Front-End",
+        "disciplineCode": "frontend",
+        "disciplineId": 1,
+        "branches": [
+          {
+            "branchName": "JavaScript",
+            "branchCode": "frontend-javascript",
+            "branchId": 1,
+            "color": "#0047ab",
+            "issues": [
+              {
+                "issueName": "React",
+                "issueCode": "js-react",
+                "issueId": 1,
+                "color": "#1560bd",
+                "topics": [
+                  {
+                    "topicName": "Hooks",
+                    "topicCode": "react-hooks",
+                    "topicId": 1,
+                    "skillLevel": 0,
+                    "color": "#73c2bd"
+                  },
+                  {
+                    "topicName": "Components",
+                    "topicCode": "react-components",
+                    "topicId": 2,
+                    "skillLevel": 1,
+                    "color": "#73c2bd"
+                  },
+                  {
+                    "topicName": "CLI Tools",
+                    "topicCode": "react-cli",
+                    "topicId": 3,
+                    "skillLevel": 2,
+                    "color": "#73c2bd"
+                  },
+                  {
+                    "topicName": "Rendering",
+                    "topicCode": "react-rendering",
+                    "topicId": 4,
+                    "skillLevel": 3,
+                    "color": "#73c2bd"
+                  }
+                ]
+              },
+              {
+                "issueName": "Functions",
+                "issueCode": "js-functions",
+                "issueId": 2,
+                "color": "#3a7ca5",
+                "topics": [
+                  {
+                    "topicName": "Closures",
+                    "topicCode": "functions-closures",
+                    "topicId": 1,
+                    "skillLevel": 1,
+                    "color": "#0197f6"
+                  },
+                  {
+                    "topicName": "Recursion",
+                    "topicCode": "functions-recursion",
+                    "topicId": 2,
+                    "skillLevel": 3,
+                    "color": "#0197f6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "CSS",
+            "branchCode": "css",
+            "branchId": 2,
+            "color": "#0047ab",
+            "issues": [],
+            "topics": [
+              {
+                "topicName": "Vanilla CSS",
+                "topicCode": "css-vanilla",
+                "topicId": 1,
+                "skillLevel": 1,
+                "color": "#1560bd"
+              },
+              {
+                "topicName": "SCSS",
+                "topicCode": "css-scss",
+                "topicId": 2,
+                "skillLevel": 2,
+                "color": "#1560bd"
+              },
+              {
+                "topicName": "TailwindCSS",
+                "topicCode": "css-tailwind",
+                "topicId": 3,
+                "skillLevel": 3,
+                "color": "#bd6015"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mariusz Fullstack",
+    "userIndex": 3,
+    "disciplines": [
+      {
+        "disciplineName": "Back-End",
+        "disciplineCode": "backend",
+        "disciplineId": 1,
+        "branches": [
+          {
+            "branchName": "NodeJS",
+            "branchCode": "backend-nodejs",
+            "branchId": 1,
+            "color": "orange",
+            "topics": [
+              {
+                "topicName": "Middleware",
+                "topicCode": "nodejs-middleware",
+                "topicId": 1,
+                "skillLevel": 1
+              },
+              {
+                "topicName": "Validation",
+                "topicCode": "nodejs-validation",
+                "topicId": 2,
+                "skillLevel": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "disciplineName": "Front-End",
+        "disciplineCode": "frontend",
+        "disciplineId": 1,
+        "branches": [
+          {
+            "branchName": "JavaScript",
+            "branchCode": "frontend-javascript",
+            "branchId": 1,
+            "color": "green",
+            "issues": [
+              {
+                "issueName": "React",
+                "issueCode": "js-react",
+                "issueId": 1,
+                "color": "purple",
+                "topics": [
+                  {
+                    "topicName": "Hooks",
+                    "topicCode": "react-hooks",
+                    "topicId": 1,
+                    "skillLevel": 0
+                  },
+                  {
+                    "topicName": "Components",
+                    "topicCode": "react-components",
+                    "topicId": 2,
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "CLI Tools",
+                    "topicCode": "react-cli",
+                    "topicId": 3,
+                    "skillLevel": 2
+                  },
+                  {
+                    "topicName": "Rendering",
+                    "topicCode": "react-rendering",
+                    "topicId": 4,
+                    "skillLevel": 3
+                  }
+                ]
+              },
+              {
+                "issueName": "Functions",
+                "issueCode": "js-functions",
+                "issueId": 2,
+                "color": "pink",
+                "topics": [
+                  {
+                    "topicName": "Closures",
+                    "topicCode": "functions-closures",
+                    "topicId": 1,
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Recursion",
+                    "topicCode": "functions-recursion",
+                    "topicId": 2,
+                    "skillLevel": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "CSS",
+            "branchCode": "css",
+            "branchId": 2,
+            "color": "#c6c6c6",
+            "issues": [],
+            "topics": [
+              {
+                "topicName": "Vanilla CSS",
+                "topicCode": "css-vanilla",
+                "topicId": 1,
+                "skillLevel": 1
+              },
+              {
+                "topicName": "SCSS",
+                "topicCode": "css-scss",
+                "topicId": 2,
+                "skillLevel": 2
+              },
+              {
+                "topicName": "TailwindCSS",
+                "topicCode": "css-tailwind",
+                "topicId": 3,
+                "skillLevel": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

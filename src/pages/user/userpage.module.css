@@ -1,0 +1,117 @@
+.article {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.discipline {
+  border: 2px solid #242424;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin-bottom: 10px;
+}
+
+.disciplineName {
+  font-size: 1.5rem;
+}
+
+.branch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff4466;
+  max-width: 1200px;
+  border: 2px solid #242424;
+}
+
+.branchWrapper {
+  display: grid;
+  max-width: 1200px;
+  grid-template-columns: 120px 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.allBranchesWrapper {
+  display: grid;
+  grid-row-gap: 40px;
+}
+
+.issue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  border: 2px solid #242424;
+  font-size: 2rem;
+}
+
+.issueWrapper {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 360px auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.allIssuesWrapper {
+  display: grid;
+  grid-row-gap: 20px;
+}
+
+.topic {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  padding: 1rem 0;
+  border: 2px solid #242424;
+}
+
+.topicWrapper {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 360px auto;
+  grid-column-gap: 10px;
+}
+
+.allTopicsWrapper {
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.topicLevels {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+}
+
+.level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #242424;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.juniorLevel {
+}
+.midLevel {
+}
+.seniorLevel {
+}
+
+.disciplineWrapper {
+  margin-bottom: 4rem;
+}
