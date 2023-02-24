@@ -1,0 +1,14 @@
+.discipline {
+  border: 2px solid #242424;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.disciplineContainer {
+  margin-bottom: 40px;
+}

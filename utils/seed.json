@@ -6,169 +6,87 @@
       {
         "disciplineName": "Front-End",
         "disciplineCode": "frontend",
-        "disciplineId": 1,
+        "disciplineId": "d-1",
         "branches": [
           {
             "branchName": "JavaScript",
-            "branchCode": "frontend-javascript",
-            "branchId": 1,
-            "color": "#f7df1e",
-            "issues": [
+            "branchCode": "js",
+            "branchId": "b-1",
+            "levels": [
               {
-                "issueName": "React",
-                "issueCode": "js-react",
-                "issueId": 1,
-                "color": "#61DBFB",
+                "levelCode": "junior",
                 "topics": [
                   {
-                    "topicName": "Hooks",
-                    "topicCode": "react-hooks",
-                    "topicId": 1,
-                    "skillLevel": 0
-                  },
-                  {
-                    "topicName": "Components",
-                    "topicCode": "react-components",
-                    "topicId": 2,
-                    "skillLevel": 1
-                  },
-                  {
-                    "topicName": "CLI Tools",
-                    "topicCode": "react-cli",
-                    "topicId": 3,
-                    "skillLevel": 2
-                  },
-                  {
-                    "topicName": "Rendering",
-                    "topicCode": "react-rendering",
-                    "topicId": 4,
-                    "skillLevel": 3
-                  }
-                ]
-              },
-              {
-                "issueName": "Functions",
-                "issueCode": "js-functions",
-                "issueId": 2,
-                "color": "#507963",
-                "topics": [
-                  {
-                    "topicName": "Closures",
-                    "topicCode": "functions-closures",
-                    "topicId": 1,
-                    "skillLevel": 1
-                  },
-                  {
-                    "topicName": "Recursion",
-                    "topicCode": "functions-recursion",
-                    "topicId": 1,
-                    "skillLevel": 3
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "branchName": "CSS",
-            "branchCode": "css",
-            "branchId": 2,
-            "color": "#264de4",
-            "issues": [],
-            "topics": [
-              {
-                "topicName": "Vanilla CSS",
-                "topicCode": "css-vanilla",
-                "topicId": 1,
-                "skillLevel": 1
-              },
-              {
-                "topicName": "SCSS",
-                "topicCode": "css-scss",
-                "topicId": 2,
-                "skillLevel": 2
-              },
-              {
-                "topicName": "TailwindCSS",
-                "topicCode": "css-tailwind",
-                "topicId": 3,
-                "skillLevel": 3
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Adam Nowak",
-    "userIndex": 2,
-    "disciplines": [
-      {
-        "disciplineName": "Front-End",
-        "disciplineCode": "frontend",
-        "disciplineId": 1,
-        "branches": [
-          {
-            "branchName": "JavaScript",
-            "branchCode": "frontend-javascript",
-            "branchId": 1,
-            "color": "#0047ab",
-            "issues": [
-              {
-                "issueName": "React",
-                "issueCode": "js-react",
-                "issueId": 1,
-                "color": "#1560bd",
-                "topics": [
-                  {
-                    "topicName": "Hooks",
-                    "topicCode": "react-hooks",
-                    "topicId": 1,
-                    "skillLevel": 0,
-                    "color": "#73c2bd"
-                  },
-                  {
-                    "topicName": "Components",
-                    "topicCode": "react-components",
-                    "topicId": 2,
+                    "topicName": "Data Types",
+                    "topicCode": "js-data-types",
+                    "topicId": "1-1",
                     "skillLevel": 1,
-                    "color": "#73c2bd"
+                    "topicDescription": "The developer can distinguish basic data types: String, Number, Boolean, Null, Undefined and complex data types: Array and Object."
                   },
                   {
-                    "topicName": "CLI Tools",
-                    "topicCode": "react-cli",
-                    "topicId": 3,
-                    "skillLevel": 2,
-                    "color": "#73c2bd"
-                  },
-                  {
-                    "topicName": "Rendering",
-                    "topicCode": "react-rendering",
-                    "topicId": 4,
-                    "skillLevel": 3,
-                    "color": "#73c2bd"
-                  }
-                ]
-              },
-              {
-                "issueName": "Functions",
-                "issueCode": "js-functions",
-                "issueId": 2,
-                "color": "#3a7ca5",
-                "topics": [
-                  {
-                    "topicName": "Closures",
-                    "topicCode": "functions-closures",
-                    "topicId": 1,
+                    "topicName": "Javascript Variables",
+                    "topicCode": "js-variables",
+                    "topicId": "1-2",
                     "skillLevel": 1,
-                    "color": "#0197f6"
+                    "topicDescription": "The developer knows the difference between 'let', 'var' and 'const' and knows how to use them appropriately."
+                  }
+                ]
+              },
+              {
+                "levelCode": "mid",
+                "topics": [
+                  {
+                    "topicName": "Data Types",
+                    "topicCode": "js-data-types",
+                    "topicId": "2-1",
+                    "skillLevel": 1
                   },
                   {
-                    "topicName": "Recursion",
-                    "topicCode": "functions-recursion",
-                    "topicId": 2,
-                    "skillLevel": 3,
-                    "color": "#0197f6"
+                    "topicName": "Javascript Variables",
+                    "topicCode": "js-variables",
+                    "topicId": "2-2",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Centering a div",
+                    "topicCode": "js-data-types",
+                    "topicId": "3-1",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Centering a div",
+                    "topicCode": "js-data-types",
+                    "topicId": "3-2",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Centering a div",
+                    "topicCode": "js-data-types",
+                    "topicId": "3-3",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Centering a div",
+                    "topicCode": "js-data-types",
+                    "topicId": "3-4",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Centering a div",
+                    "topicCode": "js-data-types",
+                    "topicId": "3-5",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Centering a div",
+                    "topicCode": "js-data-types",
+                    "topicId": "3-6",
+                    "skillLevel": 1
                   }
                 ]
               }
@@ -177,157 +95,46 @@
           {
             "branchName": "CSS",
             "branchCode": "css",
-            "branchId": 2,
-            "color": "#0047ab",
-            "issues": [],
-            "topics": [
+            "branchId": "b-2",
+            "levels": [
               {
-                "topicName": "Vanilla CSS",
-                "topicCode": "css-vanilla",
-                "topicId": 1,
-                "skillLevel": 1,
-                "color": "#1560bd"
-              },
-              {
-                "topicName": "SCSS",
-                "topicCode": "css-scss",
-                "topicId": 2,
-                "skillLevel": 2,
-                "color": "#1560bd"
-              },
-              {
-                "topicName": "TailwindCSS",
-                "topicCode": "css-tailwind",
-                "topicId": 3,
-                "skillLevel": 3,
-                "color": "#bd6015"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Mariusz Fullstack",
-    "userIndex": 3,
-    "disciplines": [
-      {
-        "disciplineName": "Back-End",
-        "disciplineCode": "backend",
-        "disciplineId": 1,
-        "branches": [
-          {
-            "branchName": "NodeJS",
-            "branchCode": "backend-nodejs",
-            "branchId": 1,
-            "color": "orange",
-            "topics": [
-              {
-                "topicName": "Middleware",
-                "topicCode": "nodejs-middleware",
-                "topicId": 1,
-                "skillLevel": 1
-              },
-              {
-                "topicName": "Validation",
-                "topicCode": "nodejs-validation",
-                "topicId": 2,
-                "skillLevel": 3
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "disciplineName": "Front-End",
-        "disciplineCode": "frontend",
-        "disciplineId": 1,
-        "branches": [
-          {
-            "branchName": "JavaScript",
-            "branchCode": "frontend-javascript",
-            "branchId": 1,
-            "color": "green",
-            "issues": [
-              {
-                "issueName": "React",
-                "issueCode": "js-react",
-                "issueId": 1,
-                "color": "purple",
+                "levelCode": "junior",
                 "topics": [
                   {
-                    "topicName": "Hooks",
-                    "topicCode": "react-hooks",
-                    "topicId": 1,
-                    "skillLevel": 0
-                  },
-                  {
-                    "topicName": "Components",
-                    "topicCode": "react-components",
-                    "topicId": 2,
+                    "topicName": "Vanilla CSS",
+                    "topicCode": "css-vanilla",
+                    "topicId": "1-3",
                     "skillLevel": 1
                   },
                   {
-                    "topicName": "CLI Tools",
-                    "topicCode": "react-cli",
-                    "topicId": 3,
-                    "skillLevel": 2
-                  },
-                  {
-                    "topicName": "Rendering",
-                    "topicCode": "react-rendering",
-                    "topicId": 4,
-                    "skillLevel": 3
+                    "topicName": "Vanilla CSS 2",
+                    "topicCode": "css-vanilla-2",
+                    "topicId": "1-4",
+                    "skillLevel": 1
                   }
                 ]
               },
               {
-                "issueName": "Functions",
-                "issueCode": "js-functions",
-                "issueId": 2,
-                "color": "pink",
+                "levelCode": "mid",
                 "topics": [
                   {
-                    "topicName": "Closures",
-                    "topicCode": "functions-closures",
-                    "topicId": 1,
+                    "topicName": "SASS",
+                    "topicCode": "css-scss",
+                    "topicId": "2-3",
                     "skillLevel": 1
-                  },
-                  {
-                    "topicName": "Recursion",
-                    "topicCode": "functions-recursion",
-                    "topicId": 2,
-                    "skillLevel": 3
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "branchName": "CSS",
-            "branchCode": "css",
-            "branchId": 2,
-            "color": "#c6c6c6",
-            "issues": [],
-            "topics": [
-              {
-                "topicName": "Vanilla CSS",
-                "topicCode": "css-vanilla",
-                "topicId": 1,
-                "skillLevel": 1
               },
               {
-                "topicName": "SCSS",
-                "topicCode": "css-scss",
-                "topicId": 2,
-                "skillLevel": 2
-              },
-              {
-                "topicName": "TailwindCSS",
-                "topicCode": "css-tailwind",
-                "topicId": 3,
-                "skillLevel": 3
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Advanced CSS",
+                    "topicCode": "css-advanced",
+                    "topicId": "3-7",
+                    "skillLevel": 1
+                  }
+                ]
               }
             ]
           }

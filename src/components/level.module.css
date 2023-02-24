@@ -1,0 +1,6 @@
+.level {
+  width: 100%;
+}
+.level:not(:first-of-type) {
+  margin-left: 10px;
+}

@@ -6,13 +6,11 @@ export default async function addUser(req, res) {
   if (req.method === "POST") {
     try {
       const userOne = seed[0];
-      const userTwo = seed[1];
-      const userThree = seed[2];
       console.log("CONNECTING TO MONGO");
       await connectMongo();
       console.log("CONNECTED TO MONGO");
       console.log("CREATING THE DOCUMENT");
-      const user = await User.create(userTwo);
+      const user = await User.create(userOne);
       console.log("THE DOCUMENT CREATED");
       res.status(200).json({ user });
       return;
@@ -27,19 +25,12 @@ export default async function addUser(req, res) {
     console.log("CONNECTED TO MONGO");
     try {
       const body = await req.body;
+      console.log("body is: ", body);
       const determineTaskToSet = (object) => {
-        if (!("issue" in object)) {
-          return {
-            $set: {
-              "disciplines.$[discipline].branches.$[branch].topics.$[topic].skillLevel":
-                body.level,
-            },
-          };
-        }
         return {
           $set: {
-            "disciplines.$[discipline].branches.$[branch].issues.$[issue].topics.$[topic].skillLevel":
-              body.level,
+            "disciplines.$[discipline].branches.$[branch].levels.$[level].topics.$[topic].skillLevel":
+              body.skillLevel,
           },
         };
       };
@@ -57,10 +48,10 @@ export default async function addUser(req, res) {
               "branch.branchCode": body.branch,
             },
             {
-              "issue.issueCode": body.issue,
+              "level.levelCode": body.level,
             },
             {
-              "topic.topicCode": body.topic,
+              "topic.topicId": body.topic,
             },
           ],
         }

@@ -7,45 +7,29 @@ const userSchema = new Schema({
     {
       disciplineName: String,
       disciplineCode: String,
-      disciplineId: Number,
+      disciplineId: String,
       branches: [
         {
           branchName: String,
           branchCode: String,
-          branchId: Number,
+          branchId: String,
           color: { type: String, default: "#fff" },
-          issues: [
+          levels: [
             {
-              issueName: String,
-              issueCode: String,
-              issueId: String,
-              color: { type: String, default: "#fff" },
+              levelCode: String,
               topics: [
                 {
                   topicName: String,
                   topicCode: String,
-                  topicId: Number,
-                  color: String,
+                  topicId: String,
+                  topicDescription: String,
+                  color: { type: String, default: "#fff" },
                   skillLevel: {
                     type: Number,
-                    enum: [0, 1, 2, 3],
                     default: 0,
                   },
                 },
               ],
-            },
-          ],
-          topics: [
-            {
-              topicName: String,
-              topicCode: String,
-              topicId: Number,
-              color: { type: String, default: "#fff" },
-              skillLevel: {
-                type: Number,
-                enum: [0, 1, 2, 3],
-                default: 0,
-              },
             },
           ],
         },
