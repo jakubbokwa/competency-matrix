@@ -14,7 +14,8 @@ const Topic = ({
   userIndex,
 }) => {
   const router = useRouter();
-  const { openModal, setModalData } = useModalContext();
+  const { openModal, setModalData, skillLevelRange } = useModalContext();
+  const { maxSkillLevel, minSkillLevel } = skillLevelRange;
 
   const topicData = {
     userIndex,
@@ -44,14 +45,11 @@ const Topic = ({
     }
   };
 
-  const maxSkillLevel = 5;
-
   const handleOpenModal = () => {
     setModalData({
       title: name,
       text: description,
       skillLevel,
-      maxSkillLevel,
     });
     openModal();
   };
@@ -61,7 +59,7 @@ const Topic = ({
   }
 
   const handleDecrease = () => {
-    if (skillLevel > 0) {
+    if (skillLevel > minSkillLevel) {
       changeSkillLevel(topicData, skillLevel - 1);
     }
     return;

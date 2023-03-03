@@ -7,9 +7,12 @@ export const ModalProvider = ({ children }) => {
   const [modalData, setModalData] = useState({
     title: "Title",
     text: "Lorem Ipsum Dolor Sit Amet...",
-    skillLevel: 0,
-    maxSkillLevel: 5,
+    skillLevel: 1,
   });
+  const skillLevelRange = {
+    minSkillLevel: 1,
+    maxSkillLevel: 5,
+  };
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -27,6 +30,7 @@ export const ModalProvider = ({ children }) => {
         setModalData,
         openModal,
         closeModal,
+        skillLevelRange,
       }}
     >
       {children}

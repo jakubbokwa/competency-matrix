@@ -1,14 +1,31 @@
 import styles from "./matrixheaders.module.css";
+import { useModalContext } from "hooks/useModalContext";
+import calculatePercentage from "utils/calculatePercentage";
 
-const headers = ["Skillset", "Junior", "Mid", "Senior"];
+const MatrixHeaders = ({ levels }) => {
+  const { skillLevelRange } = useModalContext();
+  const { minSkillLevel, maxSkillLevel } = skillLevelRange;
+  console.log("levels: ", levels);
 
-const MatrixHeaders = () => {
   return (
     <div className={styles.matrixHeaders}>
-      {headers.map((header, index) => {
+      <div className={styles.singleHeader}>
+        <span>Skillset</span>
+      </div>
+      {levels.map((level) => {
+        const { levelCode, summedSkillpoints, numberOfTopics } = level;
         return (
-          <div key={"h-" + index} className={styles.singleHeader}>
-            {header}
+          <div key={levelCode} className={styles.singleHeader}>
+            <span>{levelCode}</span>
+            <span className={styles.counter}>
+              {calculatePercentage(
+                summedSkillpoints,
+                numberOfTopics,
+                true,
+                minSkillLevel,
+                maxSkillLevel
+              )}
+            </span>
           </div>
         );
       })}

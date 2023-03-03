@@ -2,8 +2,11 @@ import styles from "./modal.module.css";
 import { useModalContext } from "hooks/useModalContext";
 
 const Modal = () => {
-  const { isModalOpen, modalData, closeModal } = useModalContext();
-  const { title, text, skillLevel, maxSkillLevel } = modalData;
+  const { isModalOpen, modalData, closeModal, skillLevelRange } =
+    useModalContext();
+  const { title, text, skillLevel } = modalData;
+  const { maxSkillLevel } = skillLevelRange;
+
   return (
     <div
       className={`${

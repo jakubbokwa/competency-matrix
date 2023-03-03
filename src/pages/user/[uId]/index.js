@@ -3,6 +3,8 @@ import connectMongo from "utils/connectMongo";
 import { Inter } from "@next/font/google";
 import styles from "./userpage.module.css";
 
+import Link from "next/link";
+
 import Discipline from "@/components/Discipline";
 import Modal from "@/components/Modal";
 
@@ -11,7 +13,17 @@ import { ModalProvider } from "hooks/useModalContext";
 const inter = Inter({ subsets: ["latin"] });
 
 const UserPage = ({ uId, userData }) => {
-  const { userIndex } = userData;
+  const userIndex = userData && userData.userIndex;
+
+  if (!userData?.name) {
+    return (
+      <article className={`${inter.className} ${styles.article}`}>
+        <header className={styles.header}>
+          <h2>Invalid user ID</h2>
+        </header>
+      </article>
+    );
+  }
 
   return (
     <ModalProvider>
@@ -20,7 +32,12 @@ const UserPage = ({ uId, userData }) => {
 
         <header className={styles.header}>
           <h1>Welcome to the user page of user {uId}</h1>
-          <h2>{userData?.name || "Invalid user ID"}</h2>
+          <div className={styles.separator}>
+            <h2>{userData.name}</h2>
+            <Link href={`./${uId}/details`}>
+              <h2 className={styles.link}>See the user&apos;s radar chart</h2>
+            </Link>
+          </div>
         </header>
 
         {userData &&

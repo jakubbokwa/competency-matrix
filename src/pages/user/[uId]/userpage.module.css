@@ -91,13 +91,15 @@
   cursor: pointer;
 }
 
-.juniorLevel {
-}
-.midLevel {
-}
-.seniorLevel {
-}
-
 .disciplineWrapper {
   margin-bottom: 4rem;
+}
+
+.separator {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link:hover {
+  color: #a0d8e6;
 }

@@ -6,7 +6,6 @@ const Discipline = ({ name, branches, disciplineCode, userIndex }) => {
   return (
     <section className={styles.disciplineContainer}>
       <div className={styles.discipline}>{name}</div>
-      <MatrixHeaders />
       {branches.map((branch) => {
         const { branchId, branchName, levels, branchCode } = branch;
         return (

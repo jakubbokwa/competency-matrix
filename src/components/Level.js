@@ -1,6 +1,5 @@
 import styles from "./level.module.css";
 import Topic from "./Topic";
-import { ModalProvider } from "hooks/useModalContext";
 
 const Level = ({
   topics,

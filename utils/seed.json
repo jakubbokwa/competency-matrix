@@ -137,6 +137,466 @@
                 ]
               }
             ]
+          },
+          {
+            "branchName": "SCSS",
+            "branchCode": "css",
+            "branchId": "b-3",
+            "levels": [
+              {
+                "levelCode": "junior",
+                "topics": [
+                  {
+                    "topicName": "Vanilla SCSS",
+                    "topicCode": "scss-vanilla",
+                    "topicId": "1-5",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Vanilla SCSS 2",
+                    "topicCode": "scss-vanilla-2",
+                    "topicId": "1-6",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "mid",
+                "topics": [
+                  {
+                    "topicName": "Mixins",
+                    "topicCode": "scss-mixins",
+                    "topicId": "2-4",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Advanced SCSS",
+                    "topicCode": "scss-advanced",
+                    "topicId": "3-8",
+                    "skillLevel": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "SCSS",
+            "branchCode": "css",
+            "branchId": "b-4",
+            "levels": [
+              {
+                "levelCode": "junior",
+                "topics": [
+                  {
+                    "topicName": "Vanilla SCSS",
+                    "topicCode": "scss-vanilla",
+                    "topicId": "1-5",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Vanilla SCSS 2",
+                    "topicCode": "scss-vanilla-2",
+                    "topicId": "1-6",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "mid",
+                "topics": [
+                  {
+                    "topicName": "Mixins",
+                    "topicCode": "scss-mixins",
+                    "topicId": "2-4",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Advanced SCSS",
+                    "topicCode": "scss-advanced",
+                    "topicId": "3-8",
+                    "skillLevel": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "SCSS",
+            "branchCode": "css",
+            "branchId": "b-5",
+            "levels": [
+              {
+                "levelCode": "junior",
+                "topics": [
+                  {
+                    "topicName": "Vanilla SCSS",
+                    "topicCode": "scss-vanilla",
+                    "topicId": "1-5",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Vanilla SCSS 2",
+                    "topicCode": "scss-vanilla-2",
+                    "topicId": "1-6",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "mid",
+                "topics": [
+                  {
+                    "topicName": "Mixins",
+                    "topicCode": "scss-mixins",
+                    "topicId": "2-4",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Advanced SCSS",
+                    "topicCode": "scss-advanced",
+                    "topicId": "3-8",
+                    "skillLevel": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "SCSS",
+            "branchCode": "css",
+            "branchId": "b-6",
+            "levels": [
+              {
+                "levelCode": "junior",
+                "topics": [
+                  {
+                    "topicName": "Vanilla SCSS",
+                    "topicCode": "scss-vanilla",
+                    "topicId": "1-5",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Vanilla SCSS 2",
+                    "topicCode": "scss-vanilla-2",
+                    "topicId": "1-6",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "mid",
+                "topics": [
+                  {
+                    "topicName": "Mixins",
+                    "topicCode": "scss-mixins",
+                    "topicId": "2-4",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Advanced SCSS",
+                    "topicCode": "scss-advanced",
+                    "topicId": "3-8",
+                    "skillLevel": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "SCSS",
+            "branchCode": "css",
+            "branchId": "b-7",
+            "levels": [
+              {
+                "levelCode": "junior",
+                "topics": [
+                  {
+                    "topicName": "Vanilla SCSS",
+                    "topicCode": "scss-vanilla",
+                    "topicId": "1-5",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Vanilla SCSS 2",
+                    "topicCode": "scss-vanilla-2",
+                    "topicId": "1-6",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "mid",
+                "topics": [
+                  {
+                    "topicName": "Mixins",
+                    "topicCode": "scss-mixins",
+                    "topicId": "2-4",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Advanced SCSS",
+                    "topicCode": "scss-advanced",
+                    "topicId": "3-8",
+                    "skillLevel": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "SCSS",
+            "branchCode": "css",
+            "branchId": "b-8",
+            "levels": [
+              {
+                "levelCode": "junior",
+                "topics": [
+                  {
+                    "topicName": "Vanilla SCSS",
+                    "topicCode": "scss-vanilla",
+                    "topicId": "1-5",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Vanilla SCSS 2",
+                    "topicCode": "scss-vanilla-2",
+                    "topicId": "1-6",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "mid",
+                "topics": [
+                  {
+                    "topicName": "Mixins",
+                    "topicCode": "scss-mixins",
+                    "topicId": "2-4",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Advanced SCSS",
+                    "topicCode": "scss-advanced",
+                    "topicId": "3-8",
+                    "skillLevel": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "SCSS",
+            "branchCode": "css",
+            "branchId": "b-9",
+            "levels": [
+              {
+                "levelCode": "junior",
+                "topics": [
+                  {
+                    "topicName": "Vanilla SCSS",
+                    "topicCode": "scss-vanilla",
+                    "topicId": "1-5",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Vanilla SCSS 2",
+                    "topicCode": "scss-vanilla-2",
+                    "topicId": "1-6",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "mid",
+                "topics": [
+                  {
+                    "topicName": "Mixins",
+                    "topicCode": "scss-mixins",
+                    "topicId": "2-4",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Advanced SCSS",
+                    "topicCode": "scss-advanced",
+                    "topicId": "3-8",
+                    "skillLevel": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "SCSS",
+            "branchCode": "css",
+            "branchId": "b-10",
+            "levels": [
+              {
+                "levelCode": "junior",
+                "topics": [
+                  {
+                    "topicName": "Vanilla SCSS",
+                    "topicCode": "scss-vanilla",
+                    "topicId": "1-5",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Vanilla SCSS 2",
+                    "topicCode": "scss-vanilla-2",
+                    "topicId": "1-6",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "mid",
+                "topics": [
+                  {
+                    "topicName": "Mixins",
+                    "topicCode": "scss-mixins",
+                    "topicId": "2-4",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Advanced SCSS",
+                    "topicCode": "scss-advanced",
+                    "topicId": "3-8",
+                    "skillLevel": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "SCSS",
+            "branchCode": "css",
+            "branchId": "b-11",
+            "levels": [
+              {
+                "levelCode": "junior",
+                "topics": [
+                  {
+                    "topicName": "Vanilla SCSS",
+                    "topicCode": "scss-vanilla",
+                    "topicId": "1-5",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Vanilla SCSS 2",
+                    "topicCode": "scss-vanilla-2",
+                    "topicId": "1-6",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "mid",
+                "topics": [
+                  {
+                    "topicName": "Mixins",
+                    "topicCode": "scss-mixins",
+                    "topicId": "2-4",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Advanced SCSS",
+                    "topicCode": "scss-advanced",
+                    "topicId": "3-8",
+                    "skillLevel": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "branchName": "SCSS",
+            "branchCode": "css",
+            "branchId": "b-12",
+            "levels": [
+              {
+                "levelCode": "junior",
+                "topics": [
+                  {
+                    "topicName": "Vanilla SCSS",
+                    "topicCode": "scss-vanilla",
+                    "topicId": "1-5",
+                    "skillLevel": 1
+                  },
+                  {
+                    "topicName": "Vanilla SCSS 2",
+                    "topicCode": "scss-vanilla-2",
+                    "topicId": "1-6",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "mid",
+                "topics": [
+                  {
+                    "topicName": "Mixins",
+                    "topicCode": "scss-mixins",
+                    "topicId": "2-4",
+                    "skillLevel": 1
+                  }
+                ]
+              },
+              {
+                "levelCode": "senior",
+                "topics": [
+                  {
+                    "topicName": "Advanced SCSS",
+                    "topicCode": "scss-advanced",
+                    "topicId": "3-8",
+                    "skillLevel": 1
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
