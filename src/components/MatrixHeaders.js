@@ -5,7 +5,6 @@ import calculatePercentage from "utils/calculatePercentage";
 const MatrixHeaders = ({ levels }) => {
   const { skillLevelRange } = useModalContext();
   const { minSkillLevel, maxSkillLevel } = skillLevelRange;
-  console.log("levels: ", levels);
 
   return (
     <div className={styles.matrixHeaders}>

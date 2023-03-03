@@ -98,10 +98,6 @@ const DetailsPage = ({ userData }) => {
                 return partialSum + nextItem;
               }, 0);
 
-            console.log("number of topics: ", numberOfTopics);
-            console.log("sum: ", sum);
-            console.log(calculatePercentage(sum, numberOfTopics, false));
-
             return calculatePercentage(sum, numberOfTopics, false);
           });
           const branchNamesArray = branches.map((branch) => {
