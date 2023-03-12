@@ -36,6 +36,16 @@ const userSchema = new Schema({
       ],
     },
   ],
+  skillSnapshots: {
+    type: [
+      {
+        data: [Number],
+        date: String,
+        time: String,
+      },
+    ],
+    required: false,
+  },
 });
 
 const User = models.User || model("User", userSchema);

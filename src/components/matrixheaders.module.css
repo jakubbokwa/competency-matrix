@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   background: #a9eeff;
+  z-index: 100;
 }
 
 .singleHeader:first-of-type {

@@ -1,0 +1,51 @@
+.article {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.indentation {
+  margin-left: 20px;
+}
+
+.discipline {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.branch {
+  break-inside: avoid;
+  padding: 10px;
+  margin: 10px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.branch + .branch:nth-child(2n) {
+  border-left: 1px solid black;
+}
+
+.level {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.topicContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.topic {
+  padding: 5px 0;
+}

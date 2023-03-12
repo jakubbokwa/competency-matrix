@@ -8,8 +8,6 @@ import Link from "next/link";
 import Discipline from "@/components/Discipline";
 import Modal from "@/components/Modal";
 
-import { ModalProvider } from "hooks/useModalContext";
-
 const inter = Inter({ subsets: ["latin"] });
 
 const UserPage = ({ uId, userData }) => {
@@ -26,36 +24,39 @@ const UserPage = ({ uId, userData }) => {
   }
 
   return (
-    <ModalProvider>
-      <article className={`${inter.className} ${styles.article}`}>
-        <Modal />
+    <article className={`${inter.className} ${styles.article}`}>
+      <Modal />
 
-        <header className={styles.header}>
-          <h1>Welcome to the user page of user {uId}</h1>
-          <div className={styles.separator}>
-            <h2>{userData.name}</h2>
+      <header className={styles.header}>
+        <h1>Welcome to the user page of user {uId}</h1>
+        <div className={styles.separator}>
+          <h2>{userData.name}</h2>
+          <div>
+            <Link href={`./${uId}/report`}>
+              <h2 className={styles.link}>See the user&apos;s report</h2>
+            </Link>
             <Link href={`./${uId}/details`}>
               <h2 className={styles.link}>See the user&apos;s radar chart</h2>
             </Link>
           </div>
-        </header>
+        </div>
+      </header>
 
-        {userData &&
-          userData.disciplines.map((discipline) => {
-            const { disciplineId, disciplineName, disciplineCode, branches } =
-              discipline;
-            return (
-              <Discipline
-                key={disciplineId}
-                name={disciplineName}
-                branches={branches}
-                disciplineCode={disciplineCode}
-                userIndex={userIndex}
-              />
-            );
-          })}
-      </article>
-    </ModalProvider>
+      {userData &&
+        userData.disciplines.map((discipline) => {
+          const { disciplineId, disciplineName, disciplineCode, branches } =
+            discipline;
+          return (
+            <Discipline
+              key={disciplineId}
+              name={disciplineName}
+              branches={branches}
+              disciplineCode={disciplineCode}
+              userIndex={userIndex}
+            />
+          );
+        })}
+    </article>
   );
 };
 

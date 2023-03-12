@@ -1,5 +1,6 @@
 import styles from "./modal.module.css";
 import { useModalContext } from "hooks/useModalContext";
+import parse from "html-react-parser";
 
 const Modal = () => {
   const { isModalOpen, modalData, closeModal, skillLevelRange } =
@@ -22,7 +23,7 @@ const Modal = () => {
           </span>
         </h2>
         <div className={styles.delimiter} />
-        <p>{text || "Lorem Ipsum Dolor Sit Amet..."}</p>
+        <p>{parse(text) || "Lorem Ipsum Dolor Sit Amet..."}</p>
         <div className={styles.close} onClick={closeModal}>
           Close
         </div>

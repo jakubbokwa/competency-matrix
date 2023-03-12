@@ -94,3 +94,8 @@
 .disciplineWrapper {
   margin-bottom: 4rem;
 }
+
+.save:hover {
+  cursor: pointer;
+  color: #a0d8e6;
+}

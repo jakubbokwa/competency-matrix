@@ -30,7 +30,7 @@ const Topic = ({
     const dataCopy = data;
     dataCopy.skillLevel = skillLevelReceived;
     try {
-      const response = await fetch(`http://localhost:3000/api/test`, {
+      const response = await fetch(`http://localhost:3000/api/user`, {
         method: "PATCH",
         body: JSON.stringify(dataCopy),
         headers: {
